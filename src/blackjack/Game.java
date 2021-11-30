@@ -44,7 +44,7 @@ public class Game {
         GUI gui = new GUI();
         Game game = new Game();
         game.initiateCardsDeck();
-
+//Adjfffj
         Player[] players = new Player[4];
         for (int i = 0; i < 4; i++) {
             players[i] = new Player("player" + i, getInitialDraw(game));
